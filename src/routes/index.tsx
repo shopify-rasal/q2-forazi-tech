@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Interactive Q2 sales deck for Forazi Tech with revenue, targets and conversion metrics.",
+          "Forazi Tech Q2 sales report deck: revenue, targets, order mix and conversion performance.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

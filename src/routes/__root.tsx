@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Forazi Tech — Q2 Sales Report" },
+      { name: "description", content: "Forazi Tech Q2 sales report deck: revenue, targets, order mix and conversion performance." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Forazi Tech — Q2 Sales Report" },
+      { property: "og:description", content: "Forazi Tech Q2 sales report deck: revenue, targets, order mix and conversion performance." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Forazi Tech — Q2 Sales Report" },
+      { name: "twitter:description", content: "Forazi Tech Q2 sales report deck: revenue, targets, order mix and conversion performance." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/848623ee-9187-49b7-bee7-fcc5a7e5e695/id-preview-4ea096b1--e11ce881-c795-4291-b368-3469fbd2af64.lovable.app-1785322850537.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/848623ee-9187-49b7-bee7-fcc5a7e5e695/id-preview-4ea096b1--e11ce881-c795-4291-b368-3469fbd2af64.lovable.app-1785322850537.png" },
     ],
     links: [
       {
