@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- The presentation is delivered as a standalone interactive HTML deck in `public/report.html` and embedded at `/` to preserve its original visual system and navigation.
